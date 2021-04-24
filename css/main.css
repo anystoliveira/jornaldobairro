@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4682B4;
+    background-color: #E0FFFF
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h2{
+    color: #8DB6CD;
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#0000FF;
+}
+.container{
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+header{
+    background: #00CDCD;
+    margin-bottom: 25px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+nav ul li{
+    box-sizing: border-box;
+    padding:0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+nav ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00BFFF;
+    box-shadow: 0 2px 2px -2px #FFFFFF;
+    height: 80px;
+}
+.posts{
+  height: 150px;
+}
+
+.barra-lateral{
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+.box-artigos{
+    flex: 0 0 auto;
+    width: 65.6666666667%;
+    padding: 0 19px 0 0;
+}
+.bloco{
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.bloco .box-imagem{
+    margin-right: 30px;
+}
+.bloco .box-imagem img{
+    border-radius: 5px;
+    max-width: 300px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.bloco .box-imagem img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.box-texto a {
+    text-decoration: none;
+}
+.box-texto a:hover p{
+    opacity: .8;
+}
+.barra-lateral{
+    padding: 10px;
+}
+.barra-lateral div{
+
+    display: flex;
+    background: #E0EEEE;
+    padding-left: 10px;
+}
+.barra-lateral h2{
+    margin-top: 0;
+}
+.barra-lateral ul{
+    list-style: none;
+    padding: 0 0 0 5px;
+}
+footer{
+    background: #6495ED;
+    color: #FFFFFF;
+}
+footer div{
+    justify-content: space-between;
+}
+footer a{
+    color: #FFFFFF;
+}
